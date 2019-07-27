@@ -2,11 +2,32 @@
 https://app.reviewnb.com/tiagodeliberali/mdc-tcc
 
 # Fruits-360
-Content
 
+## Descrição do projeto
+Esse conjunto de dados é composto de imagens de diversas frutas para classificação.
+
+### Objetivo Principal
+Classificar corretamente as frutas contidas nas imagens.
+
+### Técnicas Envolvidas
+ - Classificação multi-classe.
+ -  Técnicas para análise de imagem.
+
+### Desafios
+Para esse projeto, alguns desafios são:
+ -  Classificação de 64 tipos de frutas no total.
+ -  Montar uma rede capaz de identificar características nas imagens para identificar frutas de diferentes tipos.
+
+
+### Conjunto de Dados
+ -  http://bit.ly/mdc-fruits360
+ -  https://www.kaggle.com/moltean/fruits
+
+
+## Extra Info
 The following fruits are included: Apples (different varieties: Crimson Snow, Golden, Golden-Red, Granny Smith, Pink Lady, Red, Red Delicious), Apricot, Avocado, Avocado ripe, Banana (Yellow, Red, Lady Finger), Cactus fruit, Cantaloupe (2 varieties), Carambula, Cherry (different varieties, Rainier), Cherry Wax (Yellow, Red, Black), Chestnut, Clementine, Cocos, Dates, Granadilla, Grape (Blue, Pink, White (different varieties)), Grapefruit (Pink, White), Guava, Hazelnut, Huckleberry, Kiwi, Kaki, Kohlrabi, Kumsquats, Lemon (normal, Meyer), Lime, Lychee, Mandarine, Mango, Mangostan, Maracuja, Melon Piel de Sapo, Mulberry, Nectarine, Orange, Papaya, Passion fruit, Peach (different varieties), Pepino, Pear (different varieties, Abate, Kaiser, Monster, Red, Williams), Pepper (Red, Green, Yellow), Physalis (normal, with Husk), Pineapple (normal, Mini), Pitahaya Red, Plum (different varieties), Pomegranate, Pomelo Sweetie, Quince, Rambutan, Raspberry, Redcurrant, Salak, Strawberry (normal, Wedge), Tamarillo, Tangelo, Tomato (different varieties, Maroon, Cherry Red, Yellow), Walnut.
 
-Dataset properties
+### Dataset properties
 
 Total number of images: 71125.
 
@@ -33,9 +54,32 @@ https://www.kaggle.com/moltean/fruits
 
 
 # Landmark Recognition
+
+## Descrição do projeto
+Esse conjunto de dados é composto de imagens de pontos de referência (landmarks) naturais ou feitos pelo homem
+espalhados pelo mundo.
+
+### Objetivo Principal
+Identificar corretamente o landmark retratado na imagem.
+
+### Técnicas Envolvidas
+ - Classificação multi-classe.
+ - Clusterização.
+ - Técnicas para análise de imagem.
+
+### Desafios
+Para esse projeto, alguns desafios são:
+ - Lidar com a grande quantidade de imagens capturadas em diferentes condições (iluminação, ruído, ângulos).
+ - Classificar a imagem entre 100 possíveis categorias.
+ - Agrupar landmarks visualmente semelhantes.
+ 
+### Conjunto de Dados
+ - http://bit.ly/mdc-landmark
+ - https://www.kaggle.com/c/landmark-recognition-2019
+
+## Extra info
 (Marcio)
 Eu conversei um pouco com o Rafael sobre o projeto avançado. Segue resumo do que foi conversado.
-
 
 1. temos 500 arquivos tar com imagens para treino. cada arquivo tar tem 1GB totalizando 500GB de imagens para treino. total de imagens para treino 4.132.914
 2. cada arquivo .tar traz uma série de diretórios.
