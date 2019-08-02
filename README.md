@@ -3,20 +3,21 @@ https://app.reviewnb.com/tiagodeliberali/mdc-tcc
 
 
 # Datas importantes
-– Apresentação Parcial (10/08/2019): 20% da nota.
-∗ A Apresentação Parcial será feita de forma oral (4 a 5 minutos), com auxílio de slides (entre 5 e 10).
-∗ A Apresentação Parcial será avaliada pelo professor e pelos monitores.
-∗ O coordenador de cada grupo deverá submeter no Moodle um arquivo PDF com a apresentação
+Apresentação Parcial **(10/08/2019): 20% da nota**.
+ - A Apresentação Parcial será feita de forma oral (4 a 5 minutos), com auxílio de slides (entre 5 e 10).
+ - A Apresentação Parcial será avaliada pelo professor e pelos monitores.
+ - O coordenador de cada grupo deverá submeter no Moodle um arquivo PDF com a apresentação
 parcial, até dia 09/08/2019.
-– Apresentação Final (24/08/2019): 80% da nota.
-∗ A Apresentação Final será feita por vídeos de 4 a 5 minutos, preparados por cada grupo, que serão
+
+Apresentação Final **(24/08/2019): 80% da nota**.
+ - A Apresentação Final será feita por vídeos de 4 a 5 minutos, preparados por cada grupo, que serão
 exibidos para a turma no dia 24/08/2019.
-∗ A nota da Apresentação Final será dada pela média simples de duas notas: a média das notas da
+ - A nota da Apresentação Final será dada pela média simples de duas notas: a média das notas da
 Banca de Avaliação (composta pelo professor e pelos monitores) e a média das notas dos alunos.
-∗ Para cada projeto haverá notas bônus para as apresentações e para as avaliações realizadas pelos
+ - Para cada projeto haverá notas bônus para as apresentações e para as avaliações realizadas pelos
 alunos.
-∗ As apresentações serão publicadas no canal YouTube do curso (http://bit.ly/youtube-mdc).
-∗ O coordenador de cada grupo deverá submeter no Moodle um arquivo compactado (zip) contendo
+ - As apresentações serão publicadas no canal YouTube do curso (http://bit.ly/youtube-mdc).
+ - O coordenador de cada grupo deverá submeter no Moodle um arquivo compactado (zip) contendo
 um relatório (máximo de 10 páginas em formato PDF) e todos os arquivos fontes usados na realização
 do projeto, devidamente documentados, até dia 23/08/2019.
 
