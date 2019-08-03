@@ -94,6 +94,7 @@ Para esse projeto, alguns desafios são:
  - Agrupar landmarks visualmente semelhantes.
  
 ### Conjunto de Dados
+ - https://github.com/cvdfoundation/google-landmark
  - http://bit.ly/mdc-landmark
  - https://www.kaggle.com/c/landmark-recognition-2019
 

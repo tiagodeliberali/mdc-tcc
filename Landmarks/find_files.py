@@ -2,6 +2,7 @@ import glob
 import pandas as pd
 import shutil
 import subprocess
+import os
 
 # read filenames and image ids
 PATH = "/media/slow/landmarks/**/*.jpg"
@@ -26,15 +27,23 @@ print("number of selected image found: ", merged_data.shape[0])
 # create folders
 landmarks = pd.read_csv("./Landmarks/top_landmarks_counts.csv")
 for index, row in landmarks.iterrows():
-    bashCommand = f"mkdir {DESTINATION_PATH}{row['landmark_id']}/"
-    process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-    output, error = process.communicate()
+    directory_path = f"{DESTINATION_PATH}{row['landmark_id']}"
+    if not os.path.exists(directory_path):
+        bashCommand = f"mkdir {directory_path}"
+        process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+        output, error = process.communicate()
+
+# Get copied files
+copied_files = []
+for filename in glob.iglob(f"{DESTINATION_PATH}**/*.jpg", recursive=True):
+     copied_files.append([filename[-20:-4], filename])
 
 # move files to a central place
 count = 0
 for index, row in merged_data.iterrows():
-    count = count + 1
-    bashCommand = f"mv {row['path']} {DESTINATION_PATH}{row['landmark_id']}/"
-    process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-    output, error = process.communicate()
+    if True:
+        count = count + 1
+        bashCommand = f"cp {row['path']} {DESTINATION_PATH}{row['landmark_id']}/"
+        process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+        output, error = process.communicate()
 print("number of moved images: ", count)
