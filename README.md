@@ -101,29 +101,3 @@ Para esse projeto, alguns desafios são:
  
 ## Dados processados
 ./azcopy copy "https://landmarkdata.blob.core.windows.net/landmarks/?sv=2018-03-28&ss=bfqt&srt=sco&sp=rwdlacup&st=2018-08-04T00%3A00%3A00Z&se=2025-08-05T00%3A00%3A00Z&sig=5OGK9y1MLco0gmF30J2IxerMBzWOZfDME31inzAQDYU%3D" "/media/slow/data" --recursive=true
- 
-## Extra info
-(Marcio)
-Eu conversei um pouco com o Rafael sobre o projeto avançado. Segue resumo do que foi conversado.
-
-1. temos 500 arquivos tar com imagens para treino. cada arquivo tar tem 1GB totalizando 500GB de imagens para treino. total de imagens para treino 4.132.914
-2. cada arquivo .tar traz uma série de diretórios.
-3. cada diretório tem mais de uma classe de imagens.
-4. O arquivo train.csv tem a lista de todas as imagens e suas respectivas classes.
-5. as classes são números e não textos.
-6. importei o arquivo train.csv para um pandas dataframe. analisando o arquivo train.csv, identifiquei 203.094 classes distintas "len(df.landmark_id.unique())"
-7. entre estas 203.094 classes, fica a nosso critério selecionar a quantidade de classes (recomendado 150 classes) bem como a quantidade de imagens por classe. priorizar as classes que tem mais imagens.
-8. temos que segregar as imagens selecionadas entre treino, validação
-9. temos 20 arquivos tar com imagens para teste. cada arquivo tar tem 500MB totalizando 10GB de imagens para teste. total de imagens para teste 117.577
-10. temos que montar um diretório para cada classe selecionada. as imagens ficarão agrupadas nesses diretórios.
-11. treinar um modelo que seja capaz de classificar a imagem corretamente. podemos fazer também clusterização.
-
-O site abaixo detalha bem o dataset deste projeto.
-https://github.com/cvdfoundation/google-landmark
-
-
-Tem um outro conjunto de dados mais enxuto 52GB que podemos utilizar para estrutura a solução...mas este conjunto não pode ser utilizado no trabalho final. ele serve apenas para entendermos os dados.
-https://www.kaggle.com/c/landmark-recognition-2019/discussion/91770#latest-537550
-
-O link para fazer o donwload do arquivo tar de 52GB é esse.
-https://drive.google.com/uc?id=10yVowvmFjMkY21-DGF2pej_Lbecfqou7
