@@ -98,6 +98,10 @@ Para esse projeto, alguns desafios são:
  - http://bit.ly/mdc-landmark
  - https://www.kaggle.com/c/landmark-recognition-2019
 
+ 
+## Dados processados
+./azcopy copy "https://landmarkdata.blob.core.windows.net/landmarks/?sv=2018-03-28&ss=bfqt&srt=sco&sp=rwdlacup&st=2018-08-04T00%3A00%3A00Z&se=2025-08-05T00%3A00%3A00Z&sig=5OGK9y1MLco0gmF30J2IxerMBzWOZfDME31inzAQDYU%3D" "/media/slow/data" --recursive=true
+ 
 ## Extra info
 (Marcio)
 Eu conversei um pouco com o Rafael sobre o projeto avançado. Segue resumo do que foi conversado.
