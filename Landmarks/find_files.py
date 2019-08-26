@@ -32,7 +32,7 @@ for item in selected_data.landmark_id.unique():
         process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
         output, error = process.communicate()
 
-# Get copied files
+# Get already copied files
 copied_files = []
 for filename in glob.iglob(f"{DESTINATION_PATH}**/*.jpg", recursive=True):
      copied_files.append(filename[-20:-4])
